@@ -28,3 +28,12 @@ html {
 .tw {
   color: white;
 }
+
+.signupimg {
+  background-image: url('../images/type.jpg');
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 100px;
+  position: relative;
+}
