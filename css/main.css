@@ -3,6 +3,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.grey {
+  background-color: #BCBCBC;
+}
+
 .lightgrey {
   background-color: lightgrey;
 }
