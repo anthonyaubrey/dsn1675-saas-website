@@ -10,3 +10,21 @@ html {
 .lightgrey {
   background-color: lightgrey;
 }
+
+.tourimg {
+  background-image: url('../images/sky.jpg');
+  min-height: 800px;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 100px;
+  position: relative;
+}
+
+.wrapper {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.tw {
+  color: white;
+}
