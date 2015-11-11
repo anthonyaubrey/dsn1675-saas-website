@@ -38,14 +38,45 @@ html {
   position: relative;
 }
 
+@media only screen and (min-width: 15em) {
+
+.signupimg {
+  min-height: 300px;
+}
+
+.tourimg {
+  min-height: 300px;
+}
+}
+
 @media only screen and (min-width: 25em) {
 
+.signupimg {
+  min-height: 400px;
+}
+
+.tourimg {
+  min-height: 400px;
+}
 }
 
 @media only screen and (min-width: 38em) {
 
+.signupimg {
+    min-height: 600px;
 }
 
+.tourimg {
+  min-height: 600px;
+}
+}
 @media only screen and (min-width: 60em) {
 
+.signupimg {
+    min-height: 700px;
+}
+
+.tourimg {
+  min-height: 700px;
+}
 }
