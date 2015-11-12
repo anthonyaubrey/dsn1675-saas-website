@@ -38,6 +38,16 @@ html {
   position: relative;
 }
 
+.pricingimg {
+  background-image: url('../images/newsboy.jpg');
+  min-height: 800px;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 100px;
+  position: relative;
+}
+
+
 header li:hover{
   background-color: lightgrey;
 }
@@ -55,6 +65,10 @@ header a:hover{
 .tourimg {
   min-height: 300px;
 }
+
+.pricingimg {
+  min-height: 300px;
+}
 }
 
 @media only screen and (min-width: 25em) {
@@ -64,6 +78,10 @@ header a:hover{
 }
 
 .tourimg {
+  min-height: 400px;
+}
+
+.pricingimg {
   min-height: 400px;
 }
 
@@ -82,6 +100,10 @@ h2 {
   min-height: 600px;
 }
 
+.pricingimg {
+  min-height: 600px;
+}
+
 h2 {
   padding-top: 4em;
 }
@@ -96,6 +118,9 @@ h2 {
   min-height: 700px;
 }
 
+.pricingimg {
+  min-height: 700px;
+}
 h2 {
   padding-top: 4em;
 }
