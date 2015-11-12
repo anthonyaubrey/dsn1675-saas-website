@@ -38,6 +38,13 @@ html {
   position: relative;
 }
 
+header li:hover{
+  background-color: lightgrey;
+}
+
+header a:hover{
+  color: white;
+}
 
 @media only screen and (min-width: 15em) {
 
@@ -59,6 +66,10 @@ html {
 .tourimg {
   min-height: 400px;
 }
+
+h2 {
+  padding-top: 2.5em;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -69,6 +80,10 @@ html {
 
 .tourimg {
   min-height: 600px;
+}
+
+h2 {
+  padding-top: 4em;
 }
 }
 @media only screen and (min-width: 60em) {
