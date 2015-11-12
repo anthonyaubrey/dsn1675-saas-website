@@ -38,6 +38,7 @@ html {
   position: relative;
 }
 
+
 @media only screen and (min-width: 15em) {
 
 .signupimg {
@@ -78,5 +79,9 @@ html {
 
 .tourimg {
   min-height: 700px;
+}
+
+h2 {
+  padding-top: 4em;
 }
 }
