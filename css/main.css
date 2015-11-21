@@ -3,8 +3,15 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.green {
+  background-color: #234547;
+}
 .grey {
   background-color: #BCBCBC;
+}
+
+.ts {
+  text-shadow: 1px 1px 1px #000;
 }
 
 .lightgrey {
@@ -47,6 +54,10 @@ html {
   position: relative;
 }
 
+nav a {
+  text-decoration: none;
+  color: #000;
+}
 ol {
   list-style-type: none;
   padding-left: 0;
