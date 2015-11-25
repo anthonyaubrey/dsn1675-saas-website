@@ -74,6 +74,31 @@ header a:hover{
   color: white;
 }
 
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #235B5A, #234547);
+  background-image: -moz-linear-gradient(top, #235B5A, #234547);
+  background-image: -ms-linear-gradient(top, #235B5A, #234547);
+  background-image: -o-linear-gradient(top, #235B5A, #234547);
+  background-image: linear-gradient(to bottom, #235B5A, #234547);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -moz-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -ms-linear-gradient(top, #2e7978, #235B5A);
+  background-image: -o-linear-gradient(top, #2e7978, #235B5A);
+  background-image: linear-gradient(to bottom, #2e7978, #235B5A);
+  text-decoration: none;
+}
 @media only screen and (min-width: 15em) {
 
 .signupimg {
