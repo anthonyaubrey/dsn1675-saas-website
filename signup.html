@@ -39,11 +39,63 @@
 
 <main role="main" id="main" class="lightgrey text-center">
 
-  <form>
-    <div>
-      <label for="name">Name</label>
-      <input id="name">
+  <form action="http://formspree.io/your@email.com" method="post">
+  <div class="grid grid-middle">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+      <div>
+        <label for="fullname">Full Name</label>
+        <input id="fullname">
+      </div>
+
+      <div>
+        <label for="address">Address</label>
+        <input id="address">
+      </div>
+
+      <div>
+        <label for="email">Your Email</label>
+        <input id="email" type="email" placeholder="youremailhere" required>
+      </div>
+
+      <div>
+        <label for="province">Province</label>
+        <input id="province">
+      </div>
+
+      <div>
+        <label for="postalcode">Postal Code</label>
+        <input id="postalcode">
+      </div>
+
+      <div>
+        <label for="username">Username</label>
+        <input id="username">
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input id="password">
+      </div>
+
+      <div>
+        <label for="passwordconfirm">Password Confirm</label>
+        <input id="passwordconfirm">
+      </div>
     </div>
+
+  <fieldset class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+    <legend>Choose your payment method.</legend>
+
+    <imput id="mastercard" type="radio" name="payment">
+    <label for="mastercard">Mastercard</label>
+
+    <imput id="paypal" type="radio" name="payment">
+    <label for="paypal">Pay Pal</label>
+
+    <imput id="vista" type="radio" name="payment">
+    <label for="vista">Visa</label>
+  </fieldset>
+</div>
 
   <div class="island-double wrapper">
     <h1 class="btn">Sign Me Up!</h1>
